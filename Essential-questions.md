@@ -384,10 +384,15 @@
 
 
 35. What is a Java Bean?
-    1. 
+    1. classes that encapsulate many objects into a single object(the bean)
+    2. should follow these conventions:
+       1. must implement serilizable
+       2. should have a public no-args constructor
+       3. all properties in java bean must be private with public getters and setter methods
 
 
 36. What is a singleton?
+    1. a class that can have only one object(an instance of the class) at a time
 
 
 
