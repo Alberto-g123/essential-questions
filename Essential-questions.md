@@ -407,9 +407,24 @@
    2. left join, right join, inner join, full join
    3. one table would have to reference the second table
    ```SQL
-
+    select * from left join table1 on table1.t_id = table2.table_id;
    ```
 3. What are the sublanguages of SQL?
+   1. DDL(Data Definition Language)
+      1. commands for creating the schema
+      2. CREATE, DROP, ALTER
+   2. DML(Data Manipulation Language)
+      1. commands for editing the data
+      2. DELETE, UPDATE, INSERT
+   3. DQL(Data Query Language)
+      1. SELECT
+   4. DCL(Data Control Language)
+      1. Commands for editing permissions 
+      2. GRANT, REVOKE
+   5. TCL(Transaction Control Language)
+      1. commands for making transactions
+      2. COMMIT, ROLLBACK
+   
 4. What is normalization?
 
 
@@ -462,7 +477,21 @@
     ```  
 15. How would you create your own function?
 16. What is a transaction?
+    1.  
 17. What are the ACID properties of transatcions?
+    1. Atomic
+       1. All or none of the statements persist in the transaction
+    2. Consistent
+       1. constraints must be maintained so that the database is consistent before and after the transaction
+    3. Isolated
+       1. transactions occur independently without interference
+       2. trasactions can run in parallel and serial
+          1. parallel
+             1. multiple computations at the same time
+          2. serial
+             1. one at a time
+    4. Durable
+       1. failures in a transaction do not cause data corruption
 
 ## Spring
 1. What is Spring?
