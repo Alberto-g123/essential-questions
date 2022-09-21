@@ -483,7 +483,15 @@
     select count(column_name) from table_name;
     ```  
 15. How would you create your own function?
-    1. 
+     ```SQL
+     CREATE FUNCTION [database_name.]function_name (parameters)
+    RETURNS data_type AS
+    BEGIN
+        SQL statements
+        RETURN value
+    END;
+
+     ```
 
 
 16. What is a transaction?
