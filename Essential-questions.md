@@ -398,44 +398,96 @@
 
 ## SQL
 1. What is SQL?
+   - (Structured Query Language)
+   - SQL is a Domain Specific Language(DSL)
+   - programming language for relational databases
+
 2. How can I join a table on a column?
+   1. you can use different kinds of joins
+   2. left join, right join, inner join, full join
+   3. one table would have to reference the second table
+   ```SQL
+
+   ```
 3. What are the sublanguages of SQL?
 4. What is normalization?
+
+
 5. When is a table in 1NF?
+   1. each record is uniquely identifiable
+   2. data is atomic, cannot be broken down into more meaningful columns
+
+
 6. When is a table in 2NF?
+   1. take previous normalized form
+   2. column cannot be calculated using values in another column
+
+
 7. When is a table in 3NF?
+   1. take previous normalized form adds....
+   2. column cannot be found in another table
+
+
 8. Tell me SQL constraints.
-9. What is a primary key?
+
+
+9.  What is a primary key?
+    1. combination of two keys unique and not null
+
 10. How do I make a Foreign key?
+    1. you would need a unique column on the parent table
+    2. on the child table you would need a column that would **reference** the unique column in the parent table
+
+
 11. What is a scalar function?
+    1. a function that are based on user input
+    2. these return single value
 12. Examples?
+    1.  UCASE()
+    2.  LCASE()
+    ```SQL
+    select ucase(column_name) from table_name;
+    select lcase(colum_name) from table_name;
+    ``` 
+
 13. What is an aggreate function?
+    1. used to do operations from the values of the column
+    2. return a single value
 14. Examples?
+    1.  AVG()
+    2.  Count()
+    ```SQL
+    select avg(column_name) from table_name;
+    select count(column_name) from table_name;
+    ```  
 15. How would you create your own function?
 16. What is a transaction?
 17. What are the ACID properties of transatcions?
 
 ## Spring
 1. What is Spring?
-2. What is Depenedency Injection?
-3. Type of dependency injection?
-4. What is a framework?
-5. Tell me about Inversion of Control
-6. What is the IoC containers?
-7. What is the ApplicationContext/BeanFactory
-8. What is a Spring bean?
-9. What are the scopes of a bean?
-10. What are stereotypes?
-11. How do you configure Spring?
-12. Spring vs Spring Boot.
-13. Spring dispatcher servlet?
-14. What is the Spring Bean Lifecycle.
-15. Know all your annotations!
-16. Cloud/DevOps
-17. What DevOps have you done?
-18. What is your expeience with the cloud?
-19. What cloud services have you used?
-20. What is Maven?
-21. How have you used Maven in your project?
-22. What experience do you have with CI?
-23. How did you set up Continous Integration/Delivery?
+2. What is a Framework?
+   1. A framework, or software framework, is a platform that provides a foundation for developing software applications.
+
+3. What is Depenedency Injection?
+4. Type of dependency injection?
+5. What is a framework?
+6. Tell me about Inversion of Control
+7. What is the IoC containers?
+8. What is the ApplicationContext/BeanFactory
+9.  What is a Spring bean?
+10. What are the scopes of a bean?
+11. What are stereotypes?
+12. How do you configure Spring?
+13. Spring vs Spring Boot.
+14. Spring dispatcher servlet?
+15. What is the Spring Bean Lifecycle.
+16. Know all your annotations!
+17. Cloud/DevOps
+18. What DevOps have you done?
+19. What is your expeience with the cloud?
+20. What cloud services have you used?
+21. What is Maven?
+22. How have you used Maven in your project?
+23. What experience do you have with CI?
+24. How did you set up Continous Integration/Delivery?
