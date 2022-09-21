@@ -426,6 +426,7 @@
       2. COMMIT, ROLLBACK
    
 4. What is normalization?
+   1. process of removing redundancy from a database/table
 
 
 5. When is a table in 1NF?
@@ -444,6 +445,12 @@
 
 
 8. Tell me SQL constraints.
+   1. Restrictions we can add to columns on a table
+      1. example:
+         1. unique
+         2. not null
+         3. check
+         4. default
 
 
 9.  What is a primary key?
@@ -476,6 +483,9 @@
     select count(column_name) from table_name;
     ```  
 15. How would you create your own function?
+    1. 
+
+
 16. What is a transaction?
     1. Discrete update units for Relational Database
     2. consists of 1 to many SQL statments
