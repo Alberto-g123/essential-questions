@@ -477,7 +477,8 @@
     ```  
 15. How would you create your own function?
 16. What is a transaction?
-    1.  
+    1. Discrete update units for Relational Database
+    2. consists of 1 to many SQL statments
 17. What are the ACID properties of transatcions?
     1. Atomic
        1. All or none of the statements persist in the transaction
