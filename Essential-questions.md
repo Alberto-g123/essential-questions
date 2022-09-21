@@ -5,7 +5,7 @@
 
       1. class scope
          - where everything is written 
-         - static variables must be declared inside a class, accessible to all objects of that clas
+         - static variables must be declared inside a class, accessible to all objects of that class
 
       2. Instance/object scope
          - inside of class scope 
